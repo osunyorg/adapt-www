@@ -2,9 +2,34 @@
     .nav-level-1
         a
             background: $color-background
+            color: $color-text
             padding: $spacing-1 $spacing-3
-            border-radius: 20px
-            margin-left: $spacing-3
+            border-radius: 50px
             &.active
                 background: $color-text
-                color: $color-background
+                color: $color-background !important
+        button
+            background: $color-background
+            border-radius: 50px
+            padding: 10px
+    @include media-breakpoint-up(desktop)
+        .nav-level-1
+            a
+                margin-right: $spacing-3
+    @include media-breakpoint-down(desktop)
+        #navigation.is-opened
+            height: 90vh
+        .header-button
+            color: $color-background !important
+        .nav-level-1
+            height: 100%
+            display: flex
+            flex-direction: column
+            justify-content: center
+            *
+                text-align: center
+                font-size: pxToRem(20)
+            li
+                margin-bottom: $spacing-2
+            #search-button-primary
+                justify-content: center

@@ -7,8 +7,6 @@ params:
     position: hero
   search:
     active: true
-    positions:
-      - footer
   logo:
     header: '/assets/images/logo-white.svg'
     footer: '/assets/images/logo.svg'
