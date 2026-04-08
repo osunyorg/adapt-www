@@ -1,12 +1,16 @@
 theme: osuny
 _merge: deep
 params:
+  breadcrumb:
+    position: after-hero
   summary:
     position: hero
   search:
     active: true
+    positions:
+      - footer
   logo:
-    header: '/assets/images/logo.svg'
+    header: '/assets/images/logo-white.svg'
     footer: '/assets/images/logo.svg'
   home:
     head:
