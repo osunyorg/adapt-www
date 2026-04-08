@@ -1,6 +1,13 @@
 ---
 title: Menu principal
 items:
+- title: Accueil
+  slug: accueil
+  target: "/"
+  kind: url
+  new_tab: false
+  children: []
+  descendants_targets: []
 - title: Publications
   slug: publications
   target: "/publications/"
@@ -10,11 +17,4 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Accueil
-  slug: accueil
-  target: "/"
-  kind: url
-  new_tab: false
-  children: []
-  descendants_targets: []
 
