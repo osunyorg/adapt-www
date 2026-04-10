@@ -8,6 +8,15 @@ items:
   new_tab: false
   children: []
   descendants_targets: []
+- title: L'association
+  slug: l-association
+  target: "/lassociation/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/lassociation"
+  file: content/fr/pages/lassociation/_index.html
 - title: Publications
   slug: publications
   target: "/publications/"
