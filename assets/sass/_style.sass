@@ -42,8 +42,10 @@ html
             > span
                 color: $color-blue-light
         .hero-actions
+            margin-top: $spacing-4
             a
                 @include h5
+                @include icon(arrow-right-line, after)
                 background: $color-blue-light
                 color: $color-background
                 border: none
@@ -51,7 +53,6 @@ html
                 font-weight: bold
                 padding-left: $spacing-4
                 padding-right: $spacing-4
-                @include icon(arrow-right-line, after)
         .dropdown-share
             button
                 background: $color-background
