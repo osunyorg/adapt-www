@@ -1,3 +1,6 @@
+html
+    @include media-breakpoint-up(md)
+        font-size: Min(Max(0.9vw, 13px), 15px)
 #document-header
     .nav-level-1
         a
@@ -37,7 +40,18 @@
     .content
         h1
             > span
-                color: $color-background-alt
+                color: $color-blue-light
+        .hero-actions
+            a
+                @include h5
+                background: $color-blue-light
+                color: $color-background
+                border: none
+                border-radius: 50px
+                font-weight: bold
+                padding-left: $spacing-4
+                padding-right: $spacing-4
+                @include icon(arrow-right-line, after)
         .dropdown-share
             button
                 background: $color-background
@@ -57,7 +71,7 @@
             @include media-breakpoint-up(desktop)
                 font-size: pxToRem(80)
 .projects--large
-    
+
     .media
         margin-left: 0
         margin-right: 0
