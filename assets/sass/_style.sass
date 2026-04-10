@@ -33,3 +33,31 @@
                 margin-bottom: $spacing-2
             #search-button-primary
                 justify-content: center
+.hero
+    .content
+        h1
+            > span
+                color: $color-background-alt
+        .dropdown-share
+            button
+                background: $color-background
+                border: none
+.page__home
+    .hero
+        height: 80vh
+        background-image: url(/assets/images/pattern-vertical-blue.svg)
+        background-repeat: no-repeat
+        background-size: contain
+        background-position: 180%
+        @include media-breakpoint-up(desktop)
+            background-position: 90%
+        h1
+            font-size: pxToRem(46)
+            line-height: 90%
+            @include media-breakpoint-up(desktop)
+                font-size: pxToRem(80)
+.projects--large
+    
+    .media
+        margin-left: 0
+        margin-right: 0
