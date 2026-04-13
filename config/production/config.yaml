@@ -7,6 +7,10 @@ osuny:
   website:
     id: 16db55f3-d212-4d44-be30-65e52a802840
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "adapt-project.org"
 
 ## LANGUAGE
 defaultContentLanguage: fr
