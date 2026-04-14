@@ -13,8 +13,28 @@ items:
   target: "/lassociation/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Notre équipe
+    slug: notre-equipe
+    target: "/lassociation/notre-equipe/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/lassociation/notre-equipe"
+    file: content/fr/pages/lassociation/notre-equipe/_index.html
+  - title: Notre manifeste
+    slug: notre-manifeste
+    target: "/lassociation/notre-manifeste/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/lassociation/notre-manifeste"
+    file: content/fr/pages/lassociation/notre-manifeste/_index.html
+  descendants_targets:
+  - "/lassociation/notre-equipe/"
+  - "/lassociation/notre-manifeste/"
   path: "/pages/lassociation"
   file: content/fr/pages/lassociation/_index.html
 - title: Publications
@@ -26,4 +46,22 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
+- title: Espace presse
+  slug: espace-presse
+  target: "/espace-presse/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/espace-presse"
+  file: content/fr/pages/espace-presse/_index.html
+- title: Nous soutenir
+  slug: nous-soutenir
+  target: "/nous-soutenir/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/nous-soutenir"
+  file: content/fr/pages/nous-soutenir/_index.html
 
