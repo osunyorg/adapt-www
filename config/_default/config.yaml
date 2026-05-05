@@ -4,12 +4,12 @@ params:
   breadcrumb:
     position: after-hero
   summary:
-    position: hero
+    position: content
   search:
     active: true
   logo:
     header: '/assets/images/logo-white.svg'
-    footer: '/assets/images/logo.svg'
+    footer: '/assets/images/logo-green.svg'
   home:
     head:
       title: site

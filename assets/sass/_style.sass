@@ -1,75 +1,12 @@
-html
-    @include media-breakpoint-up(md)
-        font-size: Min(Max(0.9vw, 13px), 15px)
-#document-header
-    .nav-level-1
-        a
-            background: $color-background
-            color: $color-text
-            padding: $spacing-1 $spacing-3
-            border-radius: 50px
-            &.active
-                background: $color-text
-                color: $color-background !important
-        button
-            background: $color-background
-            border-radius: 50px
-            padding: 10px
-    @include media-breakpoint-up(desktop)
-        .nav-level-1
-            a
-                margin-right: $spacing-3
-    @include media-breakpoint-down(desktop)
-        #navigation.is-opened
-            height: 90vh
-        .header-button
-            color: $color-background !important
-        .nav-level-1
-            height: 100%
-            display: flex
-            flex-direction: column
-            justify-content: center
-            *
-                text-align: center
-                font-size: pxToRem(20)
-            li
-                margin-bottom: $spacing-2
-            #search-button-primary
-                justify-content: center
-.hero
-    .content
-        h1
-            > span
-                color: $color-blue-light
-        .hero-actions
-            margin-top: $spacing-4
-            a
-                @include icon(arrow-right-line, after)
-                background: $color-text
-                color: $color-background
-                border-radius: 50px
-                padding-left: $spacing-3
-                padding-right: $spacing-4
-        .dropdown-share
-            button
-                background: $color-background
-                border: none
-.page__home
-    .hero
-        height: 80vh
-        background-image: url(/assets/images/pattern-vertical-blue.svg)
-        background-repeat: no-repeat
-        background-size: contain
-        background-position: 180%
-        @include media-breakpoint-up(desktop)
-            background-position: 90%
-        h1
-            font-size: pxToRem(46)
-            line-height: 90%
-            @include media-breakpoint-up(desktop)
-                font-size: pxToRem(80)
-.projects--large
-
-    .media
-        margin-left: 0
-        margin-right: 0
+.block-summary
+    color: $color-accent
+.block-chapter
+    &--accent_background
+        background: none
+        .block-content
+            color: $color-accent
+            .chapter
+                .text
+                    width: 100% !important
+                    .rich-text
+                        @include lead
