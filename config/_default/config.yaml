@@ -16,3 +16,10 @@ params:
   projects:
     index:
       layout: list
+  components:
+    lightbox:
+      disabled: false
+      in_hero:
+        disabled: true
+      in_gallery:
+        disabled: false
