@@ -15,6 +15,18 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/projets/index.html"
+from = "/lassociation/notre-equipe/index.html"
+to = "/notre-equipe/"
+
+[[redirects]]
+from = "/lassociation/notre-manifeste/index.html"
+to = "/notre-manifeste/"
+
+[[redirects]]
+from = "/actualites/2026-05-07-ma-commune-a-50c/index.html"
+to = "/publications/2026-05-07-ma-commune-a-50c/"
+
+[[redirects]]
+from = "/actualites/index.html"
 to = "/publications/"
 

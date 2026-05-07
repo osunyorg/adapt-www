@@ -52,21 +52,35 @@ translationKey: communication-website-page-e6e5d2bf-e4d8-4de6-8517-3e6acd78e5da
 
 
 children:
+  - "posts/_index.html"
+  - "pages/notre-equipe/_index.html"
+  - "pages/notre-manifeste/_index.html"
   - "pages/lassociation/_index.html"
   - "projects/_index.html"
   - "pages/nous-soutenir/_index.html"
   - "persons/_index.html"
   - "organizations/_index.html"
-  - "posts/_index.html"
   - "pages/espace-presse/_index.html"
 child_pages:
+  - permalink: "/actualites/"
+    path: "/posts"
+    slug: "publications"
+    file: "content/fr/posts/_index.html"
+  - permalink: "/notre-equipe/"
+    path: "/pages/notre-equipe"
+    slug: "notre-equipe"
+    file: "content/fr/pages/notre-equipe/_index.html"
+  - permalink: "/notre-manifeste/"
+    path: "/pages/notre-manifeste"
+    slug: "notre-manifeste"
+    file: "content/fr/pages/notre-manifeste/_index.html"
   - permalink: "/lassociation/"
     path: "/pages/lassociation"
     slug: "lassociation"
     file: "content/fr/pages/lassociation/_index.html"
-  - permalink: "/publications/"
+  - permalink: "/projets/"
     path: "/projects"
-    slug: "publications"
+    slug: "projets"
     file: "content/fr/projects/_index.html"
   - permalink: "/nous-soutenir/"
     path: "/pages/nous-soutenir"
@@ -80,10 +94,6 @@ child_pages:
     path: "/organizations"
     slug: "organisations"
     file: "content/fr/organizations/_index.html"
-  - permalink: "/actualites/"
-    path: "/posts"
-    slug: "actualites"
-    file: "content/fr/posts/_index.html"
   - permalink: "/espace-presse/"
     path: "/pages/espace-presse"
     slug: "espace-presse"
@@ -122,16 +132,16 @@ contents:
 
       layout: grid
       pages:
-        - permalink: "/lassociation/notre-manifeste/"
-          path: "/pages/lassociation/notre-manifeste"
+        - permalink: "/notre-manifeste/"
+          path: "/pages/notre-manifeste"
           slug: "notre-manifeste"
-          file: "content/fr/pages/lassociation/notre-manifeste/_index.html"
+          file: "content/fr/pages/notre-manifeste/_index.html"
           name: >-
             Notre manifeste
-        - permalink: "/lassociation/notre-equipe/"
-          path: "/pages/lassociation/notre-equipe"
+        - permalink: "/notre-equipe/"
+          path: "/pages/notre-equipe"
           slug: "notre-equipe"
-          file: "content/fr/pages/lassociation/notre-equipe/_index.html"
+          file: "content/fr/pages/notre-equipe/_index.html"
           name: >-
             Notre équipe
 
@@ -144,7 +154,6 @@ contents:
 
     ranks:
       base: 2
-      children: 2
     top:
       active: false
 
@@ -160,14 +169,8 @@ contents:
         year: false
 
       projects:
-        - permalink: "/publications/2026-ma-commune-a-50c/"
-          path: "/projects/2026/ma-commune-a-50c"
-          slug: "ma-commune-a-50c"
-          file: "content/fr/projects/2026/ma-commune-a-50c.html"
-          name: >-
-            Ma commune à 50°C
 
-      quantity: 1
+      quantity: 0
 
 
 ---
