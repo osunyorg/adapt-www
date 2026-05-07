@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2026-04-02T21:01:53+02:00
-lastmod: 2026-05-05T17:11:10+02:00
+lastmod: 2026-05-07T16:13:00+02:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-04-02T21:01:53+02:00
-    updated_at: 2026-05-05T17:11:10+02:00
+    updated_at: 2026-05-07T16:13:00+02:00
     published_at: 2026-04-02T21:01:53+02:00
 search:
   id: "481c6fe0-d779-4d2a-86d6-807e49697dd5"
@@ -62,7 +62,7 @@ children:
   - "organizations/_index.html"
   - "pages/espace-presse/_index.html"
 child_pages:
-  - permalink: "/actualites/"
+  - permalink: "/publications/"
     path: "/posts"
     slug: "publications"
     file: "content/fr/posts/_index.html"
@@ -149,28 +149,38 @@ contents:
 
 
   - kind: block
-    template: projects
+    template: posts
 
 
     ranks:
       base: 2
+      children: 2
     top:
       active: false
 
     data:
       mode: all
       all: true
-      layout: list
+      layout: carousel
       options:
+        author: false
         categories: false
+        date: true
         image: true
+        reading_time: false
         subtitle: true
         summary: false
-        year: false
 
-      projects:
+      posts:
+        - permalink: "/publications/2026-05-07-ma-commune-a-50c/"
+          path: "/posts/2026/2026-05-07-ma-commune-a-50c"
+          slug: "ma-commune-a-50c"
+          file: "content/fr/posts/2026/2026-05-07-ma-commune-a-50c.html"
+          name: >-
+            Ma commune à 50°C
 
-      quantity: 0
+      quantity: 1
+
 
 
 ---
