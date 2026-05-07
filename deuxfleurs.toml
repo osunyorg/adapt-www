@@ -30,3 +30,7 @@ to = "/publications/2026-05-07-ma-commune-a-50c/"
 from = "/actualites/index.html"
 to = "/publications/"
 
+[[redirects]]
+from = "/publications/2026-ma-commune-a-50c/index.html"
+to = "/publications/2026-05-07-ma-commune-a-50c/"
+
