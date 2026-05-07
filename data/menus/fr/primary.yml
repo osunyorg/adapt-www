@@ -3,25 +3,25 @@ title: Menu principal
 items:
 - title: Manifeste
   slug: manifeste
-  target: "/lassociation/notre-manifeste/"
+  target: "/notre-manifeste/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/pages/lassociation/notre-manifeste"
-  file: content/fr/pages/lassociation/notre-manifeste/_index.html
+  path: "/pages/notre-manifeste"
+  file: content/fr/pages/notre-manifeste/_index.html
 - title: Équipe
   slug: equipe
-  target: "/lassociation/notre-equipe/"
+  target: "/notre-equipe/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/pages/lassociation/notre-equipe"
-  file: content/fr/pages/lassociation/notre-equipe/_index.html
+  path: "/pages/notre-equipe"
+  file: content/fr/pages/notre-equipe/_index.html
 - title: Publications
   slug: publications
-  target: "/publications/"
+  target: "/projets/"
   kind: page
   new_tab: false
   children: []
