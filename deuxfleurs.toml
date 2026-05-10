@@ -16,11 +16,11 @@ Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
 from = "/lassociation/notre-equipe/index.html"
-to = "/notre-equipe/"
+to = "/equipe/"
 
 [[redirects]]
 from = "/lassociation/notre-manifeste/index.html"
-to = "/notre-manifeste/"
+to = "/manifeste/"
 
 [[redirects]]
 from = "/actualites/2026-05-07-ma-commune-a-50c/index.html"
@@ -29,6 +29,14 @@ to = "/publications/2026-05-07-ma-commune-a-50c/"
 [[redirects]]
 from = "/actualites/index.html"
 to = "/publications/"
+
+[[redirects]]
+from = "/notre-equipe/index.html"
+to = "/equipe/"
+
+[[redirects]]
+from = "/notre-manifeste/index.html"
+to = "/manifeste/"
 
 [[redirects]]
 from = "/publications/2026-ma-commune-a-50c/index.html"
