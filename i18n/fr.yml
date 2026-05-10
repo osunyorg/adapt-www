@@ -1,0 +1,4 @@
+persons:
+  posts:
+    recent: Publications récentes
+    all: Voir toutes les publications de {{ .author }}

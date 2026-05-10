@@ -13,9 +13,14 @@ params:
   home:
     head:
       title: site
-  projects:
+  posts:
     index:
       layout: list
+    single:
+      options:
+        reading_time: false
+        signature: true
+        updated_at: false
   components:
     lightbox:
       disabled: false
