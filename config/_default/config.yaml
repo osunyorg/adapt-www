@@ -13,6 +13,9 @@ params:
   home:
     head:
       title: site
+  pages:
+    index:
+      truncate_description: 0
   posts:
     index:
       layout: list
