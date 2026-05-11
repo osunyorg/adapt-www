@@ -31,3 +31,10 @@ params:
         disabled: true
       in_gallery:
         disabled: false
+  image_sizes:
+    _default:
+      layouts:
+        carousel:
+          mobile:   360
+          tablet:   555
+          desktop:  800
