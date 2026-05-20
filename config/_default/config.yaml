@@ -38,3 +38,23 @@ params:
           mobile:   360
           tablet:   555
           desktop:  800
+    sections:
+      home:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  1920
+      pages:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  1920
+        item:
+          mobile:   350
+          tablet:   990
+          desktop:  600
+        layouts:
+          list:
+            mobile:   400
+            tablet:   800
+            desktop:  400
