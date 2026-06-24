@@ -23,6 +23,10 @@ from = "/lassociation/notre-manifeste/index.html"
 to = "/manifeste/"
 
 [[redirects]]
+from = "/newsletter/index.html"
+to = "/publications/newsletter/"
+
+[[redirects]]
 from = "/actualites/2026-05-07-ma-commune-a-50c/index.html"
 to = "/publications/2026-05-07-ma-commune-a-50c/"
 
