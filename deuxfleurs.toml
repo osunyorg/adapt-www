@@ -35,6 +35,10 @@ from = "/actualites/index.html"
 to = "/publications/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/adapt-rapport-ma-commune-a-50-c-v4pdf/"
+
+[[redirects]]
 from = "/notre-equipe/index.html"
 to = "/equipe/"
 
