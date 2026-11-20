@@ -27,6 +27,10 @@ from = "/newsletter/index.html"
 to = "/publications/newsletter/"
 
 [[redirects]]
+from = "/tout-comprendre-a-ladaptation-au-changement-climatique/index.html"
+to = "/publications/tout-comprendre-a-ladaptation-au-changement-climatique/"
+
+[[redirects]]
 from = "/actualites/2026-05-07-ma-commune-a-50c/index.html"
 to = "/publications/2026-05-07-ma-commune-a-50c/"
 
